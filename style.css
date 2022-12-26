@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2022/11/29/08/54/race-car-7624025_960_720.jpg);
+
+}
+
+form{
+    background-color: antiquewhite;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.div{
+    text-align: center;
+}
+
+ .input{
+    display: inline-block;
+    background-color: bisque;
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px;
+ }
+
+ .input:hover{
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+ }
